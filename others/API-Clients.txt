@@ -1,0 +1,25 @@
+API Clients
+
+Ao desenvolver uma aplicação web, é comum precisar realizar integrações com outras APIs, seja para obter informações de terceiros 
+ou para disponibilizar dados da própria aplicação para outras plataformas. Nesse sentido, surgem ferramentas que facilitam esse processo, 
+como os API Clients, que permitem realizar testes e chamadas às APIs de forma mais eficiente.
+
+Os API Clients, como o Insomnia (https://insomnia.rest/download) e o Postman (https://www.postman.com/), 
+funcionam como uma interface entre o desenvolvedor e as APIs que precisam ser integradas, 
+permitindo criar e gerenciar requisições de forma mais eficiente. Com essas ferramentas, é possível criar requisições de forma visual 
+e intuitiva, além de ter acesso a recursos como autenticação, histórico de chamadas e gerenciamento de variáveis.
+
+Essas ferramentas normalmente possuem recursos como:
+
+Construtor visual de chamadas: permite criar chamadas às APIs de forma visual e intuitiva, sem precisar escrever código manualmente;
+
+Autenticação: possibilita configurar a autenticação para as chamadas às APIs, facilitando o processo de teste e integração;
+
+Histórico de chamadas: permite visualizar as chamadas realizadas anteriormente e as respostas recebidas, 
+facilitando o processo de depuração;
+
+Gerenciamento de variáveis: possibilita configurar variáveis que podem ser utilizadas em diferentes chamadas, 
+evitando a necessidade de repetir informações em vários locais.
+
+Com esses recursos, os API Clients se tornam ferramentas indispensáveis para desenvolvedores que precisam realizar 
+integrações com outras plataformas e serviços.
