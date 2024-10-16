@@ -1,0 +1,18 @@
+Stepper
+
+Você está desenvolvendo um formulário em um aplicativo web ou mobile e ele tem uma seção em que o usuário precisa inserir 
+informações em duas etapas distintas. A inserção de informações em duas etapas pode ser confusa para o usuário, 
+especialmente se não houver uma maneira clara de acompanhar o progresso em cada etapa.
+
+Uma maneira de demonstrar isso é utilizar um componente de stepper em seu formulário. 
+O stepper é um componente de interface de usuário que permite criar uma sequência de etapas que o 
+usuário pode seguir para concluir uma tarefa.
+
+Para implementar o stepper em seu formulário, uma opção é utilizar o Material UI, uma biblioteca de componentes de 
+interface de usuário para React. O Material UI oferece uma documentação completa sobre o uso do stepper, 
+incluindo exemplos de código e propriedades personalizáveis. 
+Você pode acessar a documentação do stepper em https://material-ui.com/components/stepper/.
+
+Com a utilização do stepper em seu formulário, você pode tornar o processo de inserção de informações em duas etapas 
+mais fácil de entender e acompanhar. O usuário pode visualizar o progresso em cada etapa e navegar facilmente entre elas, 
+garantindo uma experiência de usuário mais intuitiva e agradável.

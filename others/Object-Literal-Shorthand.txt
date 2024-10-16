@@ -1,0 +1,30 @@
+Object Literal Shorthand
+
+Ao desenvolver um aplicativo em JavaScript, muitas vezes é necessário trabalhar com objetos e ao criar objetos em JavaScript, 
+é comum que tenhamos que repetir o nome da chave e do valor. Isso pode ser um problema especialmente quando trabalhamos 
+com objetos complexos que possuem muitas propriedades. Isso pode levar a erros de digitação e tornar o código difícil de ler e manter.
+
+Com o lançamento do ECMAScript 6 (ES6), novas funcionalidades foram introduzidas para facilitar a criação e manipulação de objetos, 
+como o Object Literal Shorthand, que permite definir propriedades de objetos de forma mais concisa e legível. 
+Em vez de repetir o nome da chave e do valor, podemos simplesmente usar o nome da variável para ambos. 
+Isso significa que podemos criar objetos mais rapidamente e com menos código.
+
+Por exemplo, ao invés de escrever:
+
+const email = 'gatobonifacio@gmail.com';
+const senha = ‘12345’;
+
+const person = {
+  email: email,
+  senha: senha
+};
+
+Podemos usar:
+
+const email = 'gatobonifacio@gmail.com';
+const senha = ‘12345’;
+
+const login = {
+  email,
+  senha
+};
