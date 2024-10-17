@@ -1,0 +1,19 @@
+MUI e Modal
+
+É comum receber uma tarefa para implementar um layout que possui um modal para exibição de informações adicionais, 
+geralmente esse tipo de componente é exibido ao clicar em algum botão.
+
+Mas calma: você não precisa criar do zero! Caso você esteja usando uma biblioteca de componentes em seu projeto, 
+pode ser que tenha um Modal disponível por lá.
+
+Ao usar bibliotecas você consegue economizar tempo e garantir a consistência visual da página. 
+No caso do projeto que está sendo desenvolvido nesse curso utilizamos o componente Modal da biblioteca Material UI. 
+O Modal é um componente pré-construído que fornece uma estrutura pronta para implementação de modais responsivos, 
+elegantes e personalizáveis.
+
+O Modal é um dos componentes mais úteis e versáteis da biblioteca Material UI. 
+Ele é uma solução pronta para a implementação de modais em aplicações web, 
+oferecendo uma estrutura flexível e personalizável que se adapta a diferentes layouts.
+
+Você pode visualizar a documentação desse componente (https://mui.com/material-ui/react-modal/) 
+para verificar quais são as características modifícaveis.
