@@ -123,7 +123,7 @@ export const deletarClinica = async (req: Request, res: Response): Promise<void>
   const { id } = req.params
   const clinica = await AppDataSource.manager.findOne(Clinica, {
     where: { id },
-    relations: ['endereco']
+    //relations: ['endereco']
   })
   if (clinica !== null) {
     await AppDataSource.manager.remove(Clinica, clinica)

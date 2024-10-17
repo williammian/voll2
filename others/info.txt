@@ -8,3 +8,6 @@ Insomnia
 
 https://github.com/Kong/insomnia/releases/tag/core%402023.1.0
 
+--------------------------------------------------------
+
+npm install --save mobx

@@ -1,0 +1,27 @@
+Token de autenticação
+
+Ao utilizar aplicativos e sites que requerem login, pode ser necessário enviar credenciais para autenticação. 
+No entanto, enviar informações de autenticação como nome de usuário e senha a cada solicitação pode resultar 
+em um processo lento e ineficiente, além de colocar as credenciais em risco em caso de interceptação.
+
+Uma maneira de contornar essa situação é utilizar tokens de autenticação, como o JSON Web Token (JWT). 
+Eles são criptografados e contêm informações que permitem a um usuário acessar recursos específicos 
+sem precisar enviar suas credenciais a cada solicitação. Além do JWT, existem outros tipos de autenticação 
+que podem ser utilizados em aplicativos e sites. Alguns deles incluem:
+
+Basic Authentication: é o tipo mais simples de autenticação, em que as credenciais são enviadas como texto simples em uma solicitação HTTP.
+Esse tipo de autenticação não é seguro, pois as credenciais podem ser interceptadas facilmente.
+
+Digest Authentication: semelhante ao Basic Authentication, mas com um nível adicional de segurança em que as credenciais são criptografadas
+ antes de serem enviadas. No entanto, esse método ainda não é tão seguro quanto outros tipos de autenticação, como o JWT.
+
+OAuth: é um protocolo de autorização que permite que aplicativos terceiros acessem recursos protegidos em um servidor em nome do usuário. 
+Isso é útil em aplicativos que precisam acessar informações do usuário em outro aplicativo ou site, como o login com o Google ou o Facebook.
+
+OpenID Connect: é um protocolo de autenticação que utiliza o OAuth 2.0 e adiciona um identificador exclusivo do usuário, 
+permitindo que aplicativos de terceiros obtenham informações do usuário sem precisar acessar suas credenciais.
+
+Cada tipo de autenticação tem seus prós e contras, e a escolha dependerá do contexto e das necessidades de segurança do aplicativo. 
+Caso queira se aprofundar sobre o assunto, tire um tempinho para ler os artigos Tipos de Autenticação: 
+Senha, Token, JWT, Dois Fatores e Mais (https://www.alura.com.br/artigos/tipos-de-autenticacao) 
+e Autenticação, autorização e segurança no front-end (https://www.alura.com.br/artigos/autenticacao-autorizacao-seguranca-no-front-end).

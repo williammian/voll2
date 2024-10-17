@@ -1,0 +1,18 @@
+Gerenciamento de Estado
+
+No processo de desenvolvimento de um projeto web complexo precisamos lidar com uma grande quantidade de dados e informações em tempo real. 
+Uma das dificuldades encontradas na construção desse tipo de projeto é garantir que a interface do usuário seja atualizada de forma 
+adequada e que as mudanças sejam refletidas de maneira consistente, especialmente quando lidamos com muitos componentes 
+e estados diferentes.
+
+Sem uma estratégia adequada de gerenciamento de estado, o código pode se tornar rapidamente difícil de manter e os problemas 
+de desempenho podem surgir, resultando em uma experiência de usuário insatisfatória.
+
+Uma solução eficiente para gerenciar o estado em aplicativos web é utilizar o MobX, uma biblioteca de gerenciamento de estado 
+que permite que os dados sejam gerenciados de forma simples e reativa. 
+Com o MobX, é possível criar observáveis e reações que atualizam a interface de usuário automaticamente sempre 
+que houver alguma mudança no estado, tornando o processo de gerenciamento de estado mais simplificado e eficiente.
+
+Além do MobX, existem outras bibliotecas de gerenciamento de estado que podem ser utilizadas em aplicativos web, 
+como o Redux e o Context API. Cada uma dessas bibliotecas tem suas próprias vantagens e desvantagens, 
+e a escolha dependerá das necessidades específicas do projeto e do desenvolvedor.
